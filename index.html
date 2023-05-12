@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<!---- No determino lenguaje de caracteres en (es) Español -->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <!-------- Direccion relativa sin punto de partida ./ y styles esta en /css -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
     <p class="name"></p>
     <p class="blog"></p>
+    <!---- Faltaba agregar otra etiqueta p para imprimir location-->
+    <p class="location"></p>
 
-  <script src="../assets/js/app.js"></script>
+    <!----- Ruta relativa incorrecta - donde el script app.js no existe---->
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
